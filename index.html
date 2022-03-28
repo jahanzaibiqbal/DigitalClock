@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Digital Clock</title>
+  </head>
+  <body>
+    <div class="clock">
+      <h2 class="heading">Digital Clock</h2>
+
+      <div class="digits">
+        <p id="hours" class="hours">00</p>
+        <p class="colon">:</p>
+        <p id="minutes" class="minutes">00</p>
+        <p id="seconds" class="seconds">00</p>
+      </div>
+      <div class="date">
+        <p id="current-day" class="current-day"></p>
+        <p id="current-date" class="current-date">
+          <span id="month" class="month"> Month </span>
+          <span id="date" class="date"> Date </span>
+          <span id="year" class="year"> year </span>
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
